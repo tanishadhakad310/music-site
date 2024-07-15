@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color:black;
+    color:white;   
+}
+nav ul li{
+    padding-left:150px ;
+}
+.brand{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+h1{
+    color: white;
+    font-size: 2rem;
+    margin: 100px auto;
+    width: 40%;
+    
+}
+.container{
+    display: inline-block;
+    color: white;
+}
+.year{
+    position: absolute;
+    left: 466px;
+    color: white;
+    font-size: 1.5rem;
+    color:aquamarine;
+    
+}
+.btn {
+    background: #f70d38;
+    background-image: -webkit-linear-gradient(top, #f70d38, #b82b45);
+    background-image: -moz-linear-gradient(top, #f70d38, #b82b45);
+    background-image: -ms-linear-gradient(top, #f70d38, #b82b45);
+    background-image: -o-linear-gradient(top, #f70d38, #b82b45);
+    background-image: linear-gradient(to bottom, #f70d38, #b82b45);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #fffaff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  .btn:hover {
+    background: #3cfcb3;
+    background-image: -webkit-linear-gradient(top, #3cfcb3, #34d963);
+    background-image: -moz-linear-gradient(top, #3cfcb3, #34d963);
+    background-image: -ms-linear-gradient(top, #3cfcb3, #34d963);
+    background-image: -o-linear-gradient(top, #3cfcb3, #34d963);
+    background-image: linear-gradient(to bottom, #3cfcb3, #34d963);
+    text-decoration: none;
+    cursor: pointer;;
+}

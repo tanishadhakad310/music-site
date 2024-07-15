@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color:white;
+    color:black;
+    
+}
+nav ul li{
+    padding-left:10px ;
+}
+.brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 50px;
+}
+hr{
+    width: 4%;
+    margin: 30px auto;
+    border: dotted grey 6px;
+    border-bottom: none;
+}
+.p1{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.p2{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1rem;
+}
+span{
+    background-color: aqua;
+}
